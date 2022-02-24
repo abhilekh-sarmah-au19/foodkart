@@ -218,8 +218,8 @@ include "connect.php";
 										<strong>' . $row[3] . '<br>
 										<span class="w3-text-red">Rs. ' . $row[5] . '</span></strong><br><br>
 										<input type="hidden" name="itemid" value="' . $row[0] . '">
-										<input type="text" required name="qty" placeholder="Qty" size="8"> &nbsp;
-										<input type="submit" name="add" id="add" value="Add to Cart" class="w3-btn w3-lime  w3-padding-small w3-round">
+										<input type="number" min="1" required name="qty" placeholder="Qty" size="8"> <br>
+										<input type="submit" name="add" id="add" value="Add to Cart" class="w3-btn w3-margin-top w3-lime  w3-padding-small w3-round">
 									</div>
 								</form>
 							</div>';
